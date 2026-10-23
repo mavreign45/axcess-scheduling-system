@@ -18,12 +18,12 @@ The interface is a custom Blade + Tailwind application with a teal/slate visual 
 
 | Component | Supported / tested |
 | --- | --- |
-| PHP | 8.2+ (tested with **PHP 8.5.4**) |
+| PHP | 8.4.1+ (tested with **PHP 8.5.12**) |
 | Laravel | **12.70.1** |
 | Composer | 2.x |
 | Node.js | 22.x (tested with **22.22.1**) |
 | Database | SQLite by default; MySQL/PostgreSQL are supported by Laravel |
-| PHP extensions | `pdo_sqlite`, `sqlite3`, `mbstring`, `xml`, `zip`, `gd`, `fileinfo`, `openssl` |
+| PHP extensions | `pdo_sqlite`, `sqlite3`, `mbstring`, `xml`, `zip`, `gd`, `intl`, `fileinfo`, `openssl` |
 
 Maatwebsite/Excel **4.0.5** is used with PhpSpreadsheet **5.10.0**. Laravel Excel 4 uses the `Maatwebsite\Excel\Concerns\Export` marker interface for multi-sheet exports; the workbook classes implement it explicitly.
 

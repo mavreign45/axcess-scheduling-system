@@ -40,7 +40,7 @@ Axcess is implemented as a Laravel 12 workforce scheduling application with a cu
 | Area | Decision | Reason |
 | --- | --- | --- |
 | Framework | Laravel 12.70.1 | Modern Laravel baseline, first-party auth primitives, testing tools |
-| PHP | PHP 8.5.4 tested | Current environment; code targets PHP 8.2+ |
+| PHP | PHP 8.5.12 tested | Current environment; code targets PHP 8.4.1+ |
 | Database | SQLite default, portable migrations | Zero-config local setup; MySQL/PostgreSQL compatible |
 | Auth | Hand-rolled session authentication + middleware + gates/policies | Small role model; no external package needed |
 | UI | Blade + Tailwind CSS 4 + small vanilla JS modules | Fast server-rendered workflows and no SPA overhead |

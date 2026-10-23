@@ -6,7 +6,7 @@
     "keywords": ["axcess", "scheduling", "workforce", "laravel", "excel"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.4.1",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "maatwebsite/excel": "^4.0"
